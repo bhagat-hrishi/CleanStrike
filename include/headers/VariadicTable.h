@@ -1,40 +1,18 @@
 #pragma once
 
-// For color 
 
-#ifndef _COLORS_
+#define RESET   "\033[0m"
+#define RED     "\033[1m\033[31m"
+#define GREEN   "\033[1m\033[32m"
+#define YELLOW  "\033[1m\033[33m"
+#define BLUE    "\033[1m\033[34m"
+#define LIGHTBLUE  "\033[1m\033[94m"
+#define MAGENTA "\033[1m\033[35m"
+#define CYAN    "\033[1m\033[36m"
+#define WHITE   "\033[1m\033[37m"
+#define DARKGRAY "\033[1m\033[90m"
+#define BOLD    "\033[1m\033[1m"
 
-#define _COLORS_
-
-
-/* FOREGROUND */
-
-#define RST  "\x1B[0m"
-#define KRED  "\x1B[31m"
-#define KGRN  "\x1B[32m"
-#define KYEL  "\x1B[33m"
-#define KBLU  "\x1B[34m"
-#define KMAG  "\x1B[35m"
-#define KCYN  "\x1B[36m"
-#define KWHT  "\x1B[37m"
-
-
-#define FRED(x) KRED x RST //red
-#define FGRN(x) KGRN x RST //green
-#define FYEL(x) KYEL x RST //yellow
-#define FBLU(x) KBLU x RST //blue
-#define FMAG(x) KMAG x RST //MAGENTA
-#define FCYN(x) KCYN x RST //CYAN
-#define FWHT(x) KWHT x RST //white
-
-
-#define BOLD(x) "\x1B[1m" x RST
-
-#define UNDL(x) "\x1B[4m" x RST
-
-
-#endif  /* _COLORS_ */
-// colors end
 #include <iostream>
 #include <iomanip>
 #include <ios>
@@ -126,35 +104,35 @@ public:
       total_width += col_size + (2 * _cell_padding);
 
     // Print out the top line
-    stream << std::string(total_width, '-') << "\n";
+    stream <<GREEN<< std::string(total_width, '-') << "\n"<<RESET;
 
     // Print out the headers
-    stream << "|";
+    stream <<GREEN <<"|"<<RESET;
     for (unsigned int i = 0; i < _num_columns; i++)
     {
       // Must find the center of the column
       auto half = _column_sizes[i] / 2;
       half -= _headers[i].size() / 2;
 
-      stream << std::string(_cell_padding, ' ') << std::setw(_column_sizes[i]) << std::left
-             << std::string(half, ' ') + _headers[i] << std::string(_cell_padding, ' ') << "|";
+      stream <<CYAN<<std::string(_cell_padding, ' ') << std::setw(_column_sizes[i]) << std::left
+             <<std::string(half, ' ') + _headers[i]<< std::string(_cell_padding, ' ')<<RESET<<GREEN<< "|"<<RESET;
     }
 
     stream << "\n";
 
     // Print out the line below the header
-    stream << std::string(total_width, '-') << "\n";
+    stream <<GREEN<< std::string(total_width, '-') << "\n"<<RESET;
 
     // Now print the rows of the table
     for (auto & row : _data)
     {
-      stream << "|";
+      stream <<GREEN<< "|"<<RESET;
       print_each(row, stream);
       stream << "\n";
     }
 
     // Print out the line below the header
-    stream << std::string(total_width, '-') << "\n";
+    stream <<GREEN<< std::string(total_width, '-')<<RESET << "\n";
   }
 
   /**
@@ -211,7 +189,7 @@ protected:
    *
    * Original Idea From From https://stackoverflow.com/a/26908596
    *
-   * BTW: This would all be a lot easier with generic lambdas
+   * BTW This would all be a lot easier with generic lambdas
    * there would only need to be one of this sequence and then
    * you could pass in a generic lambda.  Unfortunately, that's C++14
    */
@@ -266,7 +244,7 @@ protected:
     }
 
     stream << std::string(_cell_padding, ' ') << std::setw(_column_sizes[I])
-           << justify<decltype(val)>(0) << val << std::string(_cell_padding, ' ') << "|";
+           << justify<decltype(val)>(0) << val << std::string(_cell_padding, ' ') <<GREEN <<"|"<<RESET;
 
     // Unset the format
     if (!_column_format.empty())

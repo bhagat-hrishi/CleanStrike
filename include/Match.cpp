@@ -1,42 +1,10 @@
-#pragma once
+
 #ifndef MYFILE_H
 #define MYFILE_H
 #include "headers/VariadicTable.h"
 #include "headers/Match.hpp"
 #include "headers/Board.hpp"
 #endif
-
-
-// for colors inside match.cpp
-#ifndef _COLORS_
-#define _COLORS_
-
-/* FOREGROUND */
-
-#define RST  "\x1B[0m"
-#define KRED  "\x1B[31m"
-#define KGRN  "\x1B[32m"
-#define KYEL  "\x1B[33m"
-#define KBLU  "\x1B[34m"
-#define KMAG  "\x1B[35m"
-#define KCYN  "\x1B[36m"
-#define KWHT  "\x1B[37m"
-
-
-#define FRED(x) KRED x RST //red
-#define FGRN(x) KGRN x RST //green
-#define FYEL(x) KYEL x RST //yellow
-#define FBLU(x) KBLU x RST //blue
-#define FMAG(x) KMAG x RST //MAGENTA
-#define FCYN(x) KCYN x RST //CYAN
-#define FWHT(x) KWHT x RST //white
-
-
-#define BOLD(x) "\x1B[1m" x RST
-#define UNDL(x) "\x1B[4m" x RST
-
-#endif  /* _COLORS_ */
-// colors end
 
 
 #include<iostream>
@@ -49,17 +17,17 @@ Match::Match()
 {
     string name;
 
-    cout<<endl<<"Enter Count of Players : ";
+    cout<<endl<<CYAN<<"Enter Count of Players : "<<RESET;
     cin>>playersCount ;
     for(int i=0;i<playersCount;i++)
     {
         Player tmpPlayer;
         players.push_back(tmpPlayer);
-        cout<<endl<<FMAG("Enter Name of  ")<< i+1 <<FMAG( " player :");
+        cout<<endl<<MAGENTA<<"Enter Name of  "<<RESET<< i+1<<MAGENTA << " player : "<<RESET;
         players[i].setPlayerName();
     }
 
-    cout<<endl<<BOLD(FCYN("______Welcome To Clean Strike________"))<<endl;
+    cout<<endl<<BOLD<<CYAN<<"______Welcome To Clean Strike________"<<endl<<RESET;
 
     result = "";
     invalidInputs = 0;
@@ -113,8 +81,8 @@ void Match::showPlayersScore()
 }
 void Match::showRemainingCoins()
 {
-    cout<<endl<<FWHT("Remaining Black Coins :")<<board.getBlackCoinCount();
-    cout<<endl<<FRED("Remaining Red Coin :")<<board.getRedCoinCount()<<endl;
+    cout<<endl<<WHITE<<"Remaining Black Coins : "<<board.getBlackCoinCount()<<RESET;
+    cout<<endl<<  RED<<"Remaining Red Coin    : "<<board.getRedCoinCount()<<RESET<<endl;
 
 }
 bool Match::isMatchOver()
@@ -124,28 +92,29 @@ bool Match::isMatchOver()
 
     if(player1Score>=5 && ((player1Score-player2Score)>=3))
     {
-        cout<<endl<<"Player "<<players[0].getName()<<" won the game. Final Score:"<<player1Score<<" - "<<player2Score;
+        cout<<endl<<GREEN<<"Player "<<RESET<<CYAN<<players[0].getName()<<RESET<<GREEN<<" won the game. Final Score: "<<RESET<<BLUE<<player1Score<<" - "<<player2Score<<RESET;
         showPlayersScore();
         showRemainingCoins();
         return true;
     }
     else if(player2Score>=5 && ((player2Score-player1Score)>=3))
     {
-        cout<<endl<<"Player "<<players[1].getName()<<" won the game. Final Score:"<<player2Score<<" - "<<player1Score;
+        cout<<endl<<GREEN<< "Player "<<RESET<<CYAN<<players[1].getName()<<RESET<<GREEN<<" won the game. Final Score: "<<RESET<<BLUE<<player2Score<<" - "<<player1Score<<RESET;
         showPlayersScore();
         showRemainingCoins();
         return true;
     }
     else if(invalidInputs>=10)
     {
-        cout<<endl<<FCYN("Match ended due to  many invlid Inputs ");
+        cout<<endl<<CYAN<<"Match ended due to  many invlid Inputs "<<RESET;
         showPlayersScore();
-        
+        showRemainingCoins();
         return true;
     }
     else if(board.getBlackCoinCount()==0 && board.getRedCoinCount()==0)
     {
-        cout<<endl<<BOLD(FCYN("Match Draw "));
+        
+        cout<<endl<<CYAN<<BOLD<<"Match Draw "<<RESET;
         showPlayersScore();
         showRemainingCoins();
         return true;
@@ -153,7 +122,7 @@ bool Match::isMatchOver()
     }
     else if(board.getBlackCoinCount()<0 && board.getRedCoinCount()<0)
     {
-        cout<<endl<<BOLD(FCYN("Coins are not Available"));
+        cout<<endl<<CYAN<<BOLD<<"Coins are not Available"<<RESET;
         showPlayersScore();
         return true;
     }
@@ -166,14 +135,14 @@ void Match::playMatch()
     {
         
         // as currentPlayer is pointer
-        cout<<endl<<string((board.getCurrentPlayer())->getName())<<" : Choose an outcome from the list below";
-        cout<<endl<<FGRN("1. Strike");
-        cout<<endl<<FYEL("2. Multistrike");
-        cout<<endl<<FRED("3. Red strike");
-        cout<<endl<<FCYN("4. Striker strike");
-        cout<<endl<<FMAG("5. Defunct coin");
-        cout<<endl<<FBLU("6. None"); 
-        cout<<endl<<"==> ";
+        cout<<endl<<BLUE<<(board.getCurrentPlayer())->getName()<<RESET<<CYAN<<" : Choose an outcome from the list below "<<RESET;
+        cout<<endl<<GREEN<< "1. Strike"<<RESET;
+        cout<<endl<<BLUE<<"2. Multistrike"<<RESET;
+        cout<<endl<<RED<< "3. Red strike"<<RESET;
+        cout<<endl<<CYAN<<"4. Striker strike"<<RESET;
+        cout<<endl<<MAGENTA<<"5. Defunct coin"<<RESET;
+        cout<<endl<<DARKGRAY<<"6. None"<<RESET; 
+        cout<<endl<<GREEN<<"==> "<<RESET;
     
         int inputOption;
         cin>>inputOption;
@@ -199,7 +168,7 @@ void Match::playMatch()
                 board.getCurrentOperation().NoOperation(board.getCurrentPlayer());
                 break;
             default:
-                cout<<endl<<FRED("Plese Provide Valid Invalid Input");
+                cout<<endl<<RED<<BOLD<<"Plese Provide Valid  Input"<<endl<<RESET;
                 incrementInvalidInputs();
                 break;
         }
