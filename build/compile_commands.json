@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/src/main.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/src/main.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/src/main.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/BlackCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/RedCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/src/main.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/src/main.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/src/main.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/libs/googletest/googlemock",
+  "command": "/bin/g++-9   -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/libs/googletest/googlemock",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock/include -I/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/libs/googletest/googletest",
+  "command": "/bin/g++-9   -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/libs/googletest/googletest",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -I/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/test",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeTests.dir/Example.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/test/Example.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/test/Example.cpp"
+}
+]

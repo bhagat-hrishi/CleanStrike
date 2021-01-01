@@ -1,0 +1,13 @@
+1 1 3 6 2 6 2
+1 3 6 2 6 1 3
+3 2 6 1 2 2 1 2 1
+1 1
+k dn d nd  fd f n  df  n d d d kd  d c   dc  k d c d kc d c  d cd c d c d k c d  c 
+
+
+1 3             2 1  21 kc
+
+            dm 1 2 3 4 5  6 7 8  8 6 3 2 1  e
+
+
+k dn d nd  fd f n  df  n d d d kd 1 3  d c   dc  k d c d kc 2 d c  d 1 cd c3 d 3 c d 1 k  1 c d  c 

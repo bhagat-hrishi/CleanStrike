@@ -1,0 +1,2 @@
+/bin/ar qc libCleanStrike.a  CMakeFiles/CleanStrike.dir/src/main.cpp.o CMakeFiles/CleanStrike.dir/include/Player.cpp.o CMakeFiles/CleanStrike.dir/include/Operations.cpp.o CMakeFiles/CleanStrike.dir/include/Board.cpp.o CMakeFiles/CleanStrike.dir/include/Match.cpp.o CMakeFiles/CleanStrike.dir/include/BlackCoin.cpp.o CMakeFiles/CleanStrike.dir/include/RedCoin.cpp.o
+/bin/ranlib libCleanStrike.a
