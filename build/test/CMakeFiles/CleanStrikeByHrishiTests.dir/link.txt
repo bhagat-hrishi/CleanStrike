@@ -1,0 +1,1 @@
+/bin/g++-9  -g   CMakeFiles/CleanStrikeByHrishiTests.dir/CoinTests.cpp.o CMakeFiles/CleanStrikeByHrishiTests.dir/PlayerTests.cpp.o CMakeFiles/CleanStrikeByHrishiTests.dir/OperationsTests.cpp.o CMakeFiles/CleanStrikeByHrishiTests.dir/MatchTests.cpp.o  -o CleanStrikeByHrishiTests  ../lib/libgtest_maind.a ../libCleanStrike.a ../lib/libgtestd.a -lpthread 

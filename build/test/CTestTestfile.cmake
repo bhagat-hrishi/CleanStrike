@@ -4,5 +4,5 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-add_test(CleanStrikeTests "/home/hrishi007/Desktop/Sahaj/Project/build/test/CleanStrikeTests")
-set_tests_properties(CleanStrikeTests PROPERTIES  _BACKTRACE_TRIPLES "/home/hrishi007/Desktop/Sahaj/Project/test/CMakeLists.txt;16;add_test;/home/hrishi007/Desktop/Sahaj/Project/test/CMakeLists.txt;0;")
+add_test(CleanStrikeByHrishiTests "/home/hrishi007/Desktop/Sahaj/Project/build/test/CleanStrikeByHrishiTests")
+set_tests_properties(CleanStrikeByHrishiTests PROPERTIES  _BACKTRACE_TRIPLES "/home/hrishi007/Desktop/Sahaj/Project/test/CMakeLists.txt;21;add_test;/home/hrishi007/Desktop/Sahaj/Project/test/CMakeLists.txt;0;")

@@ -38,4 +38,3 @@ void takeInputFromFile(std::string fileName ,std::vector<std::string> &inputs) {
         std::cout<<RED<<"File do not exist or is unable to open\n"<<RESET;
     }
 }
-

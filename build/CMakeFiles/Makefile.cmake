@@ -78,5 +78,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "libs/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "libs/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "libs/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "test/CMakeFiles/CleanStrikeTests.dir/DependInfo.cmake"
+  "test/CMakeFiles/CleanStrikeByHrishiTests.dir/DependInfo.cmake"
   )

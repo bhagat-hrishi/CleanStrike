@@ -6,33 +6,28 @@
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/CleanStrike/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Player.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Player.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/CleanStrike/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Operations.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Operations.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/CleanStrike/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Board.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Board.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/CleanStrike/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Match.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Match.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/BlackCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp"
-},
-{
-  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/RedCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrike.dir/include/CleanStrike/Coin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Coin.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Coin.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
@@ -41,33 +36,28 @@
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Player.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Player.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Operations.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Operations.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Board.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Board.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Match.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Match.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp"
-},
-{
-  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Coin.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Coin.cpp"
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/libs/googletest/googlemock",
@@ -91,7 +81,22 @@
 },
 {
   "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/test",
-  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeTests.dir/Example.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/test/Example.cpp",
-  "file": "/home/hrishi007/Desktop/Sahaj/Project/test/Example.cpp"
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishiTests.dir/CoinTests.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/test/CoinTests.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/test/CoinTests.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/test",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishiTests.dir/PlayerTests.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/test/PlayerTests.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/test/PlayerTests.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/test",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishiTests.dir/OperationsTests.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/test/OperationsTests.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/test/OperationsTests.cpp"
+},
+{
+  "directory": "/home/hrishi007/Desktop/Sahaj/Project/build/test",
+  "command": "/bin/g++-9   -I/home/hrishi007/Desktop/Sahaj/Project/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest/include -isystem /home/hrishi007/Desktop/Sahaj/Project/libs/googletest/googletest  -g   -std=gnu++14 -o CMakeFiles/CleanStrikeByHrishiTests.dir/MatchTests.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/test/MatchTests.cpp",
+  "file": "/home/hrishi007/Desktop/Sahaj/Project/test/MatchTests.cpp"
 }
 ]

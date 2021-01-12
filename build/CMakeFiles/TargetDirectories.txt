@@ -39,4 +39,4 @@
 /home/hrishi007/Desktop/Sahaj/Project/build/test/CMakeFiles/rebuild_cache.dir
 /home/hrishi007/Desktop/Sahaj/Project/build/test/CMakeFiles/edit_cache.dir
 /home/hrishi007/Desktop/Sahaj/Project/build/test/CMakeFiles/test.dir
-/home/hrishi007/Desktop/Sahaj/Project/build/test/CMakeFiles/CleanStrikeTests.dir
+/home/hrishi007/Desktop/Sahaj/Project/build/test/CMakeFiles/CleanStrikeByHrishiTests.dir

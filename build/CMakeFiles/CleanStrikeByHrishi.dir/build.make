@@ -70,107 +70,92 @@ CMakeFiles/CleanStrikeByHrishi.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/src/main.cpp.s"
 	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/src/main.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/src/main.cpp.s
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
-CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o: ../include/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o"
-	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o: ../include/CleanStrike/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Player.cpp
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.i"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.i
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Player.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.i
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.s"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/Player.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.s
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Player.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.s
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
-CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o: ../include/Operations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o"
-	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o: ../include/CleanStrike/Operations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Operations.cpp
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.i"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.i
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Operations.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.i
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.s"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/Operations.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.s
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Operations.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.s
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
-CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o: ../include/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o"
-	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o: ../include/CleanStrike/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Board.cpp
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.i"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.i
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Board.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.i
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.s"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/Board.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.s
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Board.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.s
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
-CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o: ../include/Match.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o"
-	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o: ../include/CleanStrike/Match.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Match.cpp
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.i"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.i
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Match.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.i
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.s"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/Match.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.s
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Match.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.s
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
-CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o: ../include/BlackCoin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o"
-	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o: ../include/CleanStrike/Coin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Coin.cpp
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.i"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.i
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Coin.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.i
 
-CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.s"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/BlackCoin.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.s
-
-CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o: CMakeFiles/CleanStrikeByHrishi.dir/flags.make
-CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o: ../include/RedCoin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o"
-	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o -c /home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp
-
-CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.i"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp > CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.i
-
-CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.s"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/RedCoin.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.s
+CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrishi007/Desktop/Sahaj/Project/include/CleanStrike/Coin.cpp -o CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.s
 
 # Object files for target CleanStrikeByHrishi
 CleanStrikeByHrishi_OBJECTS = \
 "CMakeFiles/CleanStrikeByHrishi.dir/src/main.cpp.o" \
-"CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o" \
-"CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o" \
-"CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o" \
-"CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o" \
-"CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o" \
-"CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o"
+"CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o" \
+"CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o" \
+"CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o" \
+"CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o" \
+"CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o"
 
 # External object files for target CleanStrikeByHrishi
 CleanStrikeByHrishi_EXTERNAL_OBJECTS =
 
 CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/src/main.cpp.o
-CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o
-CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o
-CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o
-CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o
-CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o
-CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o
+CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o
+CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o
+CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o
+CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o
+CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o
 CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/build.make
 CleanStrikeByHrishi: CMakeFiles/CleanStrikeByHrishi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CleanStrikeByHrishi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CleanStrikeByHrishi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CleanStrikeByHrishi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

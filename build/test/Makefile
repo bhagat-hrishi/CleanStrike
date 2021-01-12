@@ -168,46 +168,127 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/CleanStrikeTests.dir/rule:
-	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/CleanStrikeTests.dir/rule
-.PHONY : test/CMakeFiles/CleanStrikeTests.dir/rule
+test/CMakeFiles/CleanStrikeByHrishiTests.dir/rule:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/CleanStrikeByHrishiTests.dir/rule
+.PHONY : test/CMakeFiles/CleanStrikeByHrishiTests.dir/rule
 
 # Convenience name for target.
-CleanStrikeTests: test/CMakeFiles/CleanStrikeTests.dir/rule
+CleanStrikeByHrishiTests: test/CMakeFiles/CleanStrikeByHrishiTests.dir/rule
 
-.PHONY : CleanStrikeTests
+.PHONY : CleanStrikeByHrishiTests
 
 # fast build rule for target.
-CleanStrikeTests/fast:
-	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/build
-.PHONY : CleanStrikeTests/fast
+CleanStrikeByHrishiTests/fast:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/build
+.PHONY : CleanStrikeByHrishiTests/fast
 
-Example.o: Example.cpp.o
+CoinTests.o: CoinTests.cpp.o
 
-.PHONY : Example.o
+.PHONY : CoinTests.o
 
 # target to build an object file
-Example.cpp.o:
-	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/Example.cpp.o
-.PHONY : Example.cpp.o
+CoinTests.cpp.o:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/CoinTests.cpp.o
+.PHONY : CoinTests.cpp.o
 
-Example.i: Example.cpp.i
+CoinTests.i: CoinTests.cpp.i
 
-.PHONY : Example.i
+.PHONY : CoinTests.i
 
 # target to preprocess a source file
-Example.cpp.i:
-	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/Example.cpp.i
-.PHONY : Example.cpp.i
+CoinTests.cpp.i:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/CoinTests.cpp.i
+.PHONY : CoinTests.cpp.i
 
-Example.s: Example.cpp.s
+CoinTests.s: CoinTests.cpp.s
 
-.PHONY : Example.s
+.PHONY : CoinTests.s
 
 # target to generate assembly for a file
-Example.cpp.s:
-	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/Example.cpp.s
-.PHONY : Example.cpp.s
+CoinTests.cpp.s:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/CoinTests.cpp.s
+.PHONY : CoinTests.cpp.s
+
+MatchTests.o: MatchTests.cpp.o
+
+.PHONY : MatchTests.o
+
+# target to build an object file
+MatchTests.cpp.o:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/MatchTests.cpp.o
+.PHONY : MatchTests.cpp.o
+
+MatchTests.i: MatchTests.cpp.i
+
+.PHONY : MatchTests.i
+
+# target to preprocess a source file
+MatchTests.cpp.i:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/MatchTests.cpp.i
+.PHONY : MatchTests.cpp.i
+
+MatchTests.s: MatchTests.cpp.s
+
+.PHONY : MatchTests.s
+
+# target to generate assembly for a file
+MatchTests.cpp.s:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/MatchTests.cpp.s
+.PHONY : MatchTests.cpp.s
+
+OperationsTests.o: OperationsTests.cpp.o
+
+.PHONY : OperationsTests.o
+
+# target to build an object file
+OperationsTests.cpp.o:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/OperationsTests.cpp.o
+.PHONY : OperationsTests.cpp.o
+
+OperationsTests.i: OperationsTests.cpp.i
+
+.PHONY : OperationsTests.i
+
+# target to preprocess a source file
+OperationsTests.cpp.i:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/OperationsTests.cpp.i
+.PHONY : OperationsTests.cpp.i
+
+OperationsTests.s: OperationsTests.cpp.s
+
+.PHONY : OperationsTests.s
+
+# target to generate assembly for a file
+OperationsTests.cpp.s:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/OperationsTests.cpp.s
+.PHONY : OperationsTests.cpp.s
+
+PlayerTests.o: PlayerTests.cpp.o
+
+.PHONY : PlayerTests.o
+
+# target to build an object file
+PlayerTests.cpp.o:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/PlayerTests.cpp.o
+.PHONY : PlayerTests.cpp.o
+
+PlayerTests.i: PlayerTests.cpp.i
+
+.PHONY : PlayerTests.i
+
+# target to preprocess a source file
+PlayerTests.cpp.i:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/PlayerTests.cpp.i
+.PHONY : PlayerTests.cpp.i
+
+PlayerTests.s: PlayerTests.cpp.s
+
+.PHONY : PlayerTests.s
+
+# target to generate assembly for a file
+PlayerTests.cpp.s:
+	cd /home/hrishi007/Desktop/Sahaj/Project/build && $(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/PlayerTests.cpp.s
+.PHONY : PlayerTests.cpp.s
 
 # Help Target
 help:
@@ -222,10 +303,19 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... CleanStrikeTests"
-	@echo "... Example.o"
-	@echo "... Example.i"
-	@echo "... Example.s"
+	@echo "... CleanStrikeByHrishiTests"
+	@echo "... CoinTests.o"
+	@echo "... CoinTests.i"
+	@echo "... CoinTests.s"
+	@echo "... MatchTests.o"
+	@echo "... MatchTests.i"
+	@echo "... MatchTests.s"
+	@echo "... OperationsTests.o"
+	@echo "... OperationsTests.i"
+	@echo "... OperationsTests.s"
+	@echo "... PlayerTests.o"
+	@echo "... PlayerTests.i"
+	@echo "... PlayerTests.s"
 .PHONY : help
 
 

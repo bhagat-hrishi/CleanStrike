@@ -246,197 +246,167 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named CleanStrikeTests
+# Target rules for targets named CleanStrikeByHrishiTests
 
 # Build rule for target.
-CleanStrikeTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CleanStrikeTests
-.PHONY : CleanStrikeTests
+CleanStrikeByHrishiTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CleanStrikeByHrishiTests
+.PHONY : CleanStrikeByHrishiTests
 
 # fast build rule for target.
-CleanStrikeTests/fast:
-	$(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/build
-.PHONY : CleanStrikeTests/fast
+CleanStrikeByHrishiTests/fast:
+	$(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/build
+.PHONY : CleanStrikeByHrishiTests/fast
 
-include/BlackCoin.o: include/BlackCoin.cpp.o
+include/CleanStrike/Board.o: include/CleanStrike/Board.cpp.o
 
-.PHONY : include/BlackCoin.o
-
-# target to build an object file
-include/BlackCoin.cpp.o:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/BlackCoin.cpp.o
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.o
-.PHONY : include/BlackCoin.cpp.o
-
-include/BlackCoin.i: include/BlackCoin.cpp.i
-
-.PHONY : include/BlackCoin.i
-
-# target to preprocess a source file
-include/BlackCoin.cpp.i:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/BlackCoin.cpp.i
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.i
-.PHONY : include/BlackCoin.cpp.i
-
-include/BlackCoin.s: include/BlackCoin.cpp.s
-
-.PHONY : include/BlackCoin.s
-
-# target to generate assembly for a file
-include/BlackCoin.cpp.s:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/BlackCoin.cpp.s
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/BlackCoin.cpp.s
-.PHONY : include/BlackCoin.cpp.s
-
-include/Board.o: include/Board.cpp.o
-
-.PHONY : include/Board.o
+.PHONY : include/CleanStrike/Board.o
 
 # target to build an object file
-include/Board.cpp.o:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Board.cpp.o
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.o
-.PHONY : include/Board.cpp.o
+include/CleanStrike/Board.cpp.o:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Board.cpp.o
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.o
+.PHONY : include/CleanStrike/Board.cpp.o
 
-include/Board.i: include/Board.cpp.i
+include/CleanStrike/Board.i: include/CleanStrike/Board.cpp.i
 
-.PHONY : include/Board.i
+.PHONY : include/CleanStrike/Board.i
 
 # target to preprocess a source file
-include/Board.cpp.i:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Board.cpp.i
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.i
-.PHONY : include/Board.cpp.i
+include/CleanStrike/Board.cpp.i:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Board.cpp.i
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.i
+.PHONY : include/CleanStrike/Board.cpp.i
 
-include/Board.s: include/Board.cpp.s
+include/CleanStrike/Board.s: include/CleanStrike/Board.cpp.s
 
-.PHONY : include/Board.s
+.PHONY : include/CleanStrike/Board.s
 
 # target to generate assembly for a file
-include/Board.cpp.s:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Board.cpp.s
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Board.cpp.s
-.PHONY : include/Board.cpp.s
+include/CleanStrike/Board.cpp.s:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Board.cpp.s
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Board.cpp.s
+.PHONY : include/CleanStrike/Board.cpp.s
 
-include/Match.o: include/Match.cpp.o
+include/CleanStrike/Coin.o: include/CleanStrike/Coin.cpp.o
 
-.PHONY : include/Match.o
+.PHONY : include/CleanStrike/Coin.o
 
 # target to build an object file
-include/Match.cpp.o:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Match.cpp.o
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.o
-.PHONY : include/Match.cpp.o
+include/CleanStrike/Coin.cpp.o:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Coin.cpp.o
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.o
+.PHONY : include/CleanStrike/Coin.cpp.o
 
-include/Match.i: include/Match.cpp.i
+include/CleanStrike/Coin.i: include/CleanStrike/Coin.cpp.i
 
-.PHONY : include/Match.i
+.PHONY : include/CleanStrike/Coin.i
 
 # target to preprocess a source file
-include/Match.cpp.i:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Match.cpp.i
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.i
-.PHONY : include/Match.cpp.i
+include/CleanStrike/Coin.cpp.i:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Coin.cpp.i
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.i
+.PHONY : include/CleanStrike/Coin.cpp.i
 
-include/Match.s: include/Match.cpp.s
+include/CleanStrike/Coin.s: include/CleanStrike/Coin.cpp.s
 
-.PHONY : include/Match.s
+.PHONY : include/CleanStrike/Coin.s
 
 # target to generate assembly for a file
-include/Match.cpp.s:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Match.cpp.s
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Match.cpp.s
-.PHONY : include/Match.cpp.s
+include/CleanStrike/Coin.cpp.s:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Coin.cpp.s
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Coin.cpp.s
+.PHONY : include/CleanStrike/Coin.cpp.s
 
-include/Operations.o: include/Operations.cpp.o
+include/CleanStrike/Match.o: include/CleanStrike/Match.cpp.o
 
-.PHONY : include/Operations.o
+.PHONY : include/CleanStrike/Match.o
 
 # target to build an object file
-include/Operations.cpp.o:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Operations.cpp.o
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.o
-.PHONY : include/Operations.cpp.o
+include/CleanStrike/Match.cpp.o:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Match.cpp.o
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.o
+.PHONY : include/CleanStrike/Match.cpp.o
 
-include/Operations.i: include/Operations.cpp.i
+include/CleanStrike/Match.i: include/CleanStrike/Match.cpp.i
 
-.PHONY : include/Operations.i
+.PHONY : include/CleanStrike/Match.i
 
 # target to preprocess a source file
-include/Operations.cpp.i:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Operations.cpp.i
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.i
-.PHONY : include/Operations.cpp.i
+include/CleanStrike/Match.cpp.i:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Match.cpp.i
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.i
+.PHONY : include/CleanStrike/Match.cpp.i
 
-include/Operations.s: include/Operations.cpp.s
+include/CleanStrike/Match.s: include/CleanStrike/Match.cpp.s
 
-.PHONY : include/Operations.s
+.PHONY : include/CleanStrike/Match.s
 
 # target to generate assembly for a file
-include/Operations.cpp.s:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Operations.cpp.s
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Operations.cpp.s
-.PHONY : include/Operations.cpp.s
+include/CleanStrike/Match.cpp.s:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Match.cpp.s
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Match.cpp.s
+.PHONY : include/CleanStrike/Match.cpp.s
 
-include/Player.o: include/Player.cpp.o
+include/CleanStrike/Operations.o: include/CleanStrike/Operations.cpp.o
 
-.PHONY : include/Player.o
+.PHONY : include/CleanStrike/Operations.o
 
 # target to build an object file
-include/Player.cpp.o:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Player.cpp.o
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.o
-.PHONY : include/Player.cpp.o
+include/CleanStrike/Operations.cpp.o:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Operations.cpp.o
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.o
+.PHONY : include/CleanStrike/Operations.cpp.o
 
-include/Player.i: include/Player.cpp.i
+include/CleanStrike/Operations.i: include/CleanStrike/Operations.cpp.i
 
-.PHONY : include/Player.i
+.PHONY : include/CleanStrike/Operations.i
 
 # target to preprocess a source file
-include/Player.cpp.i:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Player.cpp.i
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.i
-.PHONY : include/Player.cpp.i
+include/CleanStrike/Operations.cpp.i:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Operations.cpp.i
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.i
+.PHONY : include/CleanStrike/Operations.cpp.i
 
-include/Player.s: include/Player.cpp.s
+include/CleanStrike/Operations.s: include/CleanStrike/Operations.cpp.s
 
-.PHONY : include/Player.s
+.PHONY : include/CleanStrike/Operations.s
 
 # target to generate assembly for a file
-include/Player.cpp.s:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/Player.cpp.s
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/Player.cpp.s
-.PHONY : include/Player.cpp.s
+include/CleanStrike/Operations.cpp.s:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Operations.cpp.s
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Operations.cpp.s
+.PHONY : include/CleanStrike/Operations.cpp.s
 
-include/RedCoin.o: include/RedCoin.cpp.o
+include/CleanStrike/Player.o: include/CleanStrike/Player.cpp.o
 
-.PHONY : include/RedCoin.o
+.PHONY : include/CleanStrike/Player.o
 
 # target to build an object file
-include/RedCoin.cpp.o:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/RedCoin.cpp.o
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.o
-.PHONY : include/RedCoin.cpp.o
+include/CleanStrike/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Player.cpp.o
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.o
+.PHONY : include/CleanStrike/Player.cpp.o
 
-include/RedCoin.i: include/RedCoin.cpp.i
+include/CleanStrike/Player.i: include/CleanStrike/Player.cpp.i
 
-.PHONY : include/RedCoin.i
+.PHONY : include/CleanStrike/Player.i
 
 # target to preprocess a source file
-include/RedCoin.cpp.i:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/RedCoin.cpp.i
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.i
-.PHONY : include/RedCoin.cpp.i
+include/CleanStrike/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Player.cpp.i
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.i
+.PHONY : include/CleanStrike/Player.cpp.i
 
-include/RedCoin.s: include/RedCoin.cpp.s
+include/CleanStrike/Player.s: include/CleanStrike/Player.cpp.s
 
-.PHONY : include/RedCoin.s
+.PHONY : include/CleanStrike/Player.s
 
 # target to generate assembly for a file
-include/RedCoin.cpp.s:
-	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/RedCoin.cpp.s
-	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/RedCoin.cpp.s
-.PHONY : include/RedCoin.cpp.s
+include/CleanStrike/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/include/CleanStrike/Player.cpp.s
+	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/include/CleanStrike/Player.cpp.s
+.PHONY : include/CleanStrike/Player.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -487,25 +457,22 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... CleanStrikeTests"
-	@echo "... include/BlackCoin.o"
-	@echo "... include/BlackCoin.i"
-	@echo "... include/BlackCoin.s"
-	@echo "... include/Board.o"
-	@echo "... include/Board.i"
-	@echo "... include/Board.s"
-	@echo "... include/Match.o"
-	@echo "... include/Match.i"
-	@echo "... include/Match.s"
-	@echo "... include/Operations.o"
-	@echo "... include/Operations.i"
-	@echo "... include/Operations.s"
-	@echo "... include/Player.o"
-	@echo "... include/Player.i"
-	@echo "... include/Player.s"
-	@echo "... include/RedCoin.o"
-	@echo "... include/RedCoin.i"
-	@echo "... include/RedCoin.s"
+	@echo "... CleanStrikeByHrishiTests"
+	@echo "... include/CleanStrike/Board.o"
+	@echo "... include/CleanStrike/Board.i"
+	@echo "... include/CleanStrike/Board.s"
+	@echo "... include/CleanStrike/Coin.o"
+	@echo "... include/CleanStrike/Coin.i"
+	@echo "... include/CleanStrike/Coin.s"
+	@echo "... include/CleanStrike/Match.o"
+	@echo "... include/CleanStrike/Match.i"
+	@echo "... include/CleanStrike/Match.s"
+	@echo "... include/CleanStrike/Operations.o"
+	@echo "... include/CleanStrike/Operations.i"
+	@echo "... include/CleanStrike/Operations.s"
+	@echo "... include/CleanStrike/Player.o"
+	@echo "... include/CleanStrike/Player.i"
+	@echo "... include/CleanStrike/Player.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,9 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(This CleanStrikeTests)
+set(This CleanStrikeByHrishiTests)
 
 set(Sources
-    Example.cpp
+
+    CoinTests.cpp
+    PlayerTests.cpp
+    OperationsTests.cpp
+    MatchTests.cpp
+    
 )
 
 add_executable(${This} ${Sources})

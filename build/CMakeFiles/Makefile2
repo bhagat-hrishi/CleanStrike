@@ -138,7 +138,7 @@ libs/googletest/googletest/clean: libs/googletest/googletest/CMakeFiles/gtest.di
 # Directory level rules for directory test
 
 # Recursive "all" directory target.
-test/all: test/CMakeFiles/CleanStrikeTests.dir/all
+test/all: test/CMakeFiles/CleanStrikeByHrishiTests.dir/all
 
 .PHONY : test/all
 
@@ -148,7 +148,7 @@ test/preinstall:
 .PHONY : test/preinstall
 
 # Recursive "clean" directory target.
-test/clean: test/CMakeFiles/CleanStrikeTests.dir/clean
+test/clean: test/CMakeFiles/CleanStrikeByHrishiTests.dir/clean
 
 .PHONY : test/clean
 
@@ -159,12 +159,12 @@ test/clean: test/CMakeFiles/CleanStrikeTests.dir/clean
 CMakeFiles/CleanStrike.dir/all:
 	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/depend
 	$(MAKE) -f CMakeFiles/CleanStrike.dir/build.make CMakeFiles/CleanStrike.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target CleanStrike"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target CleanStrike"
 .PHONY : CMakeFiles/CleanStrike.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CleanStrike.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CleanStrike.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/CleanStrike.dir/rule
@@ -186,12 +186,12 @@ CMakeFiles/CleanStrike.dir/clean:
 CMakeFiles/CleanStrikeByHrishi.dir/all:
 	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/depend
 	$(MAKE) -f CMakeFiles/CleanStrikeByHrishi.dir/build.make CMakeFiles/CleanStrikeByHrishi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target CleanStrikeByHrishi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target CleanStrikeByHrishi"
 .PHONY : CMakeFiles/CleanStrikeByHrishi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CleanStrikeByHrishi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CleanStrikeByHrishi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/CleanStrikeByHrishi.dir/rule
@@ -214,7 +214,7 @@ libs/googletest/googlemock/CMakeFiles/gmock_main.dir/all: libs/googletest/google
 libs/googletest/googlemock/CMakeFiles/gmock_main.dir/all: libs/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f libs/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make libs/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f libs/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make libs/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=21,22 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=22,23 "Built target gmock_main"
 .PHONY : libs/googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -241,7 +241,7 @@ libs/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 libs/googletest/googlemock/CMakeFiles/gmock.dir/all: libs/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f libs/googletest/googlemock/CMakeFiles/gmock.dir/build.make libs/googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f libs/googletest/googlemock/CMakeFiles/gmock.dir/build.make libs/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=19,20 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=20,21 "Built target gmock"
 .PHONY : libs/googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -268,7 +268,7 @@ libs/googletest/googlemock/CMakeFiles/gmock.dir/clean:
 libs/googletest/googletest/CMakeFiles/gtest_main.dir/all: libs/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f libs/googletest/googletest/CMakeFiles/gtest_main.dir/build.make libs/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f libs/googletest/googletest/CMakeFiles/gtest_main.dir/build.make libs/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=25,26 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=26,27 "Built target gtest_main"
 .PHONY : libs/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,7 +295,7 @@ libs/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 libs/googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f libs/googletest/googletest/CMakeFiles/gtest.dir/build.make libs/googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f libs/googletest/googletest/CMakeFiles/gtest.dir/build.make libs/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=23,24 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=24,25 "Built target gtest"
 .PHONY : libs/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -316,33 +316,33 @@ libs/googletest/googletest/CMakeFiles/gtest.dir/clean:
 .PHONY : libs/googletest/googletest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/CleanStrikeTests.dir
+# Target rules for target test/CMakeFiles/CleanStrikeByHrishiTests.dir
 
 # All Build rule for target.
-test/CMakeFiles/CleanStrikeTests.dir/all: CMakeFiles/CleanStrike.dir/all
-test/CMakeFiles/CleanStrikeTests.dir/all: libs/googletest/googletest/CMakeFiles/gtest_main.dir/all
-test/CMakeFiles/CleanStrikeTests.dir/all: libs/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/depend
-	$(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=17,18 "Built target CleanStrikeTests"
-.PHONY : test/CMakeFiles/CleanStrikeTests.dir/all
+test/CMakeFiles/CleanStrikeByHrishiTests.dir/all: CMakeFiles/CleanStrike.dir/all
+test/CMakeFiles/CleanStrikeByHrishiTests.dir/all: libs/googletest/googletest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/CleanStrikeByHrishiTests.dir/all: libs/googletest/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/depend
+	$(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles --progress-num=15,16,17,18,19 "Built target CleanStrikeByHrishiTests"
+.PHONY : test/CMakeFiles/CleanStrikeByHrishiTests.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/CleanStrikeTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 14
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/CleanStrikeTests.dir/all
+test/CMakeFiles/CleanStrikeByHrishiTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 16
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/CleanStrikeByHrishiTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrishi007/Desktop/Sahaj/Project/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/CleanStrikeTests.dir/rule
+.PHONY : test/CMakeFiles/CleanStrikeByHrishiTests.dir/rule
 
 # Convenience name for target.
-CleanStrikeTests: test/CMakeFiles/CleanStrikeTests.dir/rule
+CleanStrikeByHrishiTests: test/CMakeFiles/CleanStrikeByHrishiTests.dir/rule
 
-.PHONY : CleanStrikeTests
+.PHONY : CleanStrikeByHrishiTests
 
 # clean rule for target.
-test/CMakeFiles/CleanStrikeTests.dir/clean:
-	$(MAKE) -f test/CMakeFiles/CleanStrikeTests.dir/build.make test/CMakeFiles/CleanStrikeTests.dir/clean
-.PHONY : test/CMakeFiles/CleanStrikeTests.dir/clean
+test/CMakeFiles/CleanStrikeByHrishiTests.dir/clean:
+	$(MAKE) -f test/CMakeFiles/CleanStrikeByHrishiTests.dir/build.make test/CMakeFiles/CleanStrikeByHrishiTests.dir/clean
+.PHONY : test/CMakeFiles/CleanStrikeByHrishiTests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

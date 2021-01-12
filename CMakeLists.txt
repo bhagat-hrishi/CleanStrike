@@ -14,23 +14,20 @@ add_subdirectory(libs/googletest)
 
 include_directories(include)
 set(Headers
-    include/headers/Player.hpp
-    include/headers/Board.hpp
-    include/headers/Match.hpp
-    include/headers/Operations.hpp
-    include/headers/Coin.hpp
-    include/headers/BlackCoin.hpp
-    include/headers/RedCoin.hpp
-    include/headers/VariadicTable.h
-    include/Player.cpp
-    include/Operations.cpp
-    include/Board.cpp
-    include/Match.cpp
-    include/BlackCoin.cpp
-    include/RedCoin.cpp
+    include/CleanStrike/headers/Player.hpp
+    include/CleanStrike/headers/Board.hpp
+    include/CleanStrike/headers/Match.hpp
+    include/CleanStrike/headers/Operations.hpp
+    include/CleanStrike/headers/Coin.hpp
+    include/CleanStrike/headers/VariadicTable.h
+    include/CleanStrike/Player.cpp
+    include/CleanStrike/Operations.cpp
+    include/CleanStrike/Board.cpp
+    include/CleanStrike/Match.cpp
+    include/CleanStrike/Coin.cpp
 )
 
-#file(COPY src/inputs DESTINATION .)
+file(COPY src/inputs DESTINATION .)
 #file(COPY logs DESTINATION .)
 
 set(Sources
@@ -38,7 +35,7 @@ set(Sources
 )
 
 
-# configure_file(src/inputs/inputFile.txt {CMAKE_CURRENT_SOURCE_DIR})
+
 
 
 add_executable(CleanStrikeByHrishi ${Sources} ${Headers})

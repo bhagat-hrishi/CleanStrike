@@ -1,0 +1,30 @@
+test take 2 parameter as argument
+TEST(testname , subtestName) {
+
+}
+assertion - it is way of checking o/p as true or false 
+    1)success
+    2)non fatal failure
+        here execution of code continue after failure also
+    3)fatal failure  
+        execution of code stop when fails
+
+    EXPECT_EQ => non fatal
+    ASSERT_EQ => fatal 
+    
+    Any unit test consist of 3 things
+    1)Arrange   
+        arrange everything to run a test
+    2)Act
+        run the test
+    3)Assert
+        verify output  
+
+
+    text fixture
+    1)placeholder for common test code used in multiple test 
+    2)also contain setup and terdown method which will called automatically 
+
+    3)To use testfixture
+    TEST_F(passNameOfFixtureStructure )
+

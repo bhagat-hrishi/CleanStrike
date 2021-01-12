@@ -1,2 +1,0 @@
-CleanStrikeTests 1 0.00264576
----
